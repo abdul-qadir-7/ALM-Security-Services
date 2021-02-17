@@ -1,0 +1,68 @@
+// .about{
+//     background-image: url(../../assets/qatar-night.jpg);
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     color:white;
+// }
+.mainimg{
+    width:100%;
+    height:450px;
+}
+
+.imgrow{
+    width:100%;
+    height:400px;
+}
+.pos{
+    position:absolute;
+    top: 65%;
+    right:3%;
+    left:3%;
+
+    background-color: white;
+}
+.imgbeg{
+    float:right;
+    width:250px;
+    height:200px;
+}
+.inscont{
+    color:#777777;
+    font-size: 15px;
+    font-weight: 400;
+}
+@media screen and (max-width:500px){
+    .mainimg{
+        height:250px;
+    }
+    .imgbeg{
+        float:none;
+        margin:auto;
+        height:200px;
+        width:45%;
+    }
+    .imgrow{
+       
+        height:250px;
+    }
+    .bot{
+        margin-bottom: 25px;
+    }
+    .wht{
+        color:white;
+    }
+}
+@media screen and (max-width:960px){
+    .pos{
+        position:relative;
+        top: 0%;
+        right:0px;
+        left:0%;
+        margin-top: 2px;
+        background-color:  #333;
+        color:#777777;
+    }
+    .wht{
+        color:white;
+    }
+}

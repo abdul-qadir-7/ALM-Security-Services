@@ -1,0 +1,39 @@
+.mainimg{
+    width:100%;
+    height:500px;
+}
+.pos{
+    position:absolute;
+    top:50%;
+    left:40%;
+    background-color: rgba(189, 36, 38, 0.8);
+    padding:30px;
+    color:white;
+}
+
+.servimg{
+    width:80%;
+    height:200px;
+}
+.col-lg-4{
+    border:3px solid white;
+    padding:20px;
+}
+@media screen and (max-width:1039px){
+
+    .pos{
+        position:relative;
+        top:0%;
+        left:0%;
+        background-color: rgba(189, 36, 38, 0.8);
+        padding:30px;
+        color:white;
+    }
+}
+@media screen and (max-width:550px){
+
+    .mainimg{
+        width:100%;
+        height:250px;
+    }
+}

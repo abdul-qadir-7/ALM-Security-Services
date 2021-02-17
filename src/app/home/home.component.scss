@@ -1,0 +1,48 @@
+img{
+    width:100%;
+    height:500px;
+}
+.spimg{
+    height:200px;
+}
+.cont{
+    display:none;
+}
+.btn{
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.description{
+    padding-top: 40px;
+}
+.ro2 img{
+    height:250px;
+    margin-top: 2px;
+}
+
+@media screen and (max-width:767px){
+
+    img{
+        width:100%;
+        height:350px;
+    }
+    .cont{
+        display:block;
+    }
+    .inblock{
+        display: none;
+    }
+}
+@media screen and (max-width:400px){
+
+    img{
+        width:100%;
+        height:230px;
+    }
+    .cont{
+        display:block;
+    }
+    .description{
+        padding-top: 20px;
+    }
+}
