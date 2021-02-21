@@ -6,23 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./expertise.component.scss']
 })
 export class ExpertiseComponent implements OnInit {
-  services=['Static Guarding',
-    'Special Event/Concert',
-    'Cash-in-Transit',
-    'Technical Services',
-    'Total Plant Protection',
-    'Mobile Patrol'
+  services=['Manned Security',
+  'Facility Management',
+  'Cash In-Transit',
+  'Technical Services'
     ]
-    services2=['Retail Security',
+    services2=['Plant Protection',
+    'Event Security',
+    'Vip Security',
+  'Surveillance'
+    ]
+    services3=['Key Holding',
     'Store Detectives',
-    'Commissionaires',
-    'Key Holding',
-    'Surveillance',
     'Consultancy']
-    othr1=['VIP Bodyguard',
+    othr1=[
       'Airport Meet & Assist',
-      'Security Officers',
-      'Valet Parking',
+      'Key Holding',
+    'Store Detectives',
+    'Consultancy',
       'Traffic Control']
     othr2=['Investigations',
       'Safety Officers',
@@ -32,7 +33,7 @@ export class ExpertiseComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    // window.scrollTo(0,0);
+    //  window.scrollTo(0,0);
   }
 
 }

@@ -9,6 +9,7 @@ import { ExpertiseComponent } from './expertise/expertise.component';
 import { ClientsComponent } from './clients/clients.component';
 import { ContactComponent } from './contact/contact.component';
 import { SurveillanceComponent } from './surveillance/surveillance.component';
+import { RouterModule, Router } from '@angular/router';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { SurveillanceComponent } from './surveillance/surveillance.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]

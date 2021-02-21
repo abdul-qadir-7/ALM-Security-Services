@@ -9,17 +9,22 @@
     height:450px;
 }
 
+.pad{
+    
+    padding-right:20px;
+    padding-left:20px;
+}
 .imgrow{
     width:100%;
     height:400px;
 }
 .pos{
     position:absolute;
-    top: 65%;
-    right:3%;
-    left:3%;
-
-    background-color: white;
+    top:45%;
+    left:40%;
+    background-color: rgba(189, 36, 38, 0.8);
+    padding:30px;
+    color:white;
 }
 .imgbeg{
     float:right;
@@ -39,7 +44,7 @@
         float:none;
         margin:auto;
         height:200px;
-        width:45%;
+        width:90%;
     }
     .imgrow{
        
@@ -48,8 +53,9 @@
     .bot{
         margin-bottom: 25px;
     }
-    .wht{
-        color:white;
+    
+    .pad{
+       padding-bottom: 20px;
     }
 }
 @media screen and (max-width:960px){
@@ -62,7 +68,13 @@
         background-color:  #333;
         color:#777777;
     }
-    .wht{
+    
+    .pos{
+        position:relative;
+        top:0%;
+        left:0%;
+        background-color: rgba(189, 36, 38, 0.8);
+        padding:30px;
         color:white;
     }
 }
